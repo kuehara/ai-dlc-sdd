@@ -40,6 +40,14 @@ Deployment Unitsをパッケージ化し、指定された環境（`staging`ま�
 ### `@aidlc-monitoring <unit-name>`
 デプロイされたシステムの監視、メトリクス分析、インシデント管理を設定します。
 
+## Modification & Improvement（改修・改善）
+
+### `@aidlc-modification "<new-requirement>"`
+追加改修や要件変更が発生した際に、既存のアーティファクトへの影響を分析し、改修計画を策定します。
+
+### `@aidlc-refactor "<target>"`
+既存のコードベースと設計を分析し、リファクタリングを提案・実行します。
+
 ## 使用方法
 
 各コマンドは、Cursorエディタのチャットで`@`記号に続けてコマンド名を入力することで実行できます。
