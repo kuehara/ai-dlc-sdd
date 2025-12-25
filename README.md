@@ -367,7 +367,7 @@ Brown-Field分析後、通常のConstruction Phaseを実行します。
 
 ## エージェント
 
-詳細なエージェント定義については、[.cursor/AGENTS.md](.cursor/AGENTS.md)を参照してください。
+詳細なエージェント定義については、[.cursor/AGENTS.md](cursor/AGENTS.md)を参照してください。
 
 ## 参考資料
 
@@ -376,5 +376,6 @@ Brown-Field分析後、通常のConstruction Phaseを実行します。
 ## ライセンス
 
 このプロジェクトは、AI-DLC手法に基づいて実装されています。
+
 
 
