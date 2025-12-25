@@ -313,6 +313,8 @@ Brown-Field分析後、通常のConstruction Phaseを実行します。
 | `/aidlc-iac-apis` | IaCとREST APIの生成 | Construction |
 | `/aidlc-deployment` | デプロイメントの実行 | Operations |
 | `/aidlc-monitoring` | 監視とインシデント管理の設定 | Operations |
+| `/aidlc-modification` | 追加改修の影響分析と計画 | Modification |
+| `/aidlc-refactor` | コードと設計のリファクタリング | Improvement |
 
 ## アーティファクト
 

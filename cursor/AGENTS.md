@@ -99,6 +99,26 @@ AI-DLCは、AIが主導する開発ライフサイクル手法です。従来の
 - `aidlc-docs/design-artifacts/static-models/` - 静的モデル
 - `aidlc-docs/design-artifacts/dynamic-models/` - 動的モデル
 
+### 5. Modification & Refactoring エージェント
+
+**役割**: システムアナリスト / シニアソフトウェアエンジニア
+
+**責任**:
+- 追加改修時の影響範囲分析（Impact Analysis）
+- 既存アーティファクトの一貫性維持
+- コードと設計のリファクタリング提案と実行
+- 技術的負債の解消
+
+**主な活動**:
+- 新規要件が既存のUser StoriesやUnitsに与える影響の特定
+- 改修計画の策定
+- コードの不吉な匂いの特定と改善
+- 設計ドキュメントと実装の同期
+
+**アーティファクト**:
+- `aidlc-docs/plans/` - 改修・リファクタリング計画
+- 更新された既存アーティファクト（User Stories, Domain Models等）
+
 ## 共通原則
 
 ### 計画ファーストアプローチ
@@ -124,6 +144,7 @@ AI-DLCは、AIが主導する開発ライフサイクル手法です。従来の
 1. **Inception → Construction**: User StoriesとUnitsがDomain Designの入力となる
 2. **Construction → Operations**: Logical DesignとCodeがDeployment Unitsの入力となる
 3. **Operations → Construction**: 監視データが改善提案としてConstruction Phaseにフィードバックされる
+4. **Modification → Construction/Operations**: 改修計画に基づいて、Constructionエージェント（実装修正）やOperationsエージェント（設定変更）に作業を引き継ぐ
 
 ## 使用方法
 
